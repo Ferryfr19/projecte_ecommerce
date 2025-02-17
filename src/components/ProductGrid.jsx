@@ -13,7 +13,7 @@ import { getAuth } from "firebase/auth";
 import { loadStripe } from "@stripe/stripe-js";
 import { Link } from "react-router-dom";
 import { collection, getDocs } from 'firebase/firestore';
-import { db } from 'C:/Users/Ferran/React/ecommerce-app/src/firebaseConfig.js';
+import { db } from '../firebaseConfig';
 
 const stripePromise = loadStripe("pk_test_51QUBJ1JvfF84QpkntUfnU4GI1PzwWaduwBE2HkxKGlcpaa5GxyiBjF9gbTwldrCHqCBo4fTCAIZ13qPh2M1Luqcd00fewNAHX3");
 
