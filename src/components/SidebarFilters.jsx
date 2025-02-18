@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Slider, Checkbox, FormGroup, FormControlLabel, Typography } from '@mui/material';
-import { db } from 'C:/Users/Ferran/React/ecommerce-app/src/firebaseConfig.js';
+import { db } from '../firebaseConfig.js';
 import { collection, getDocs } from 'firebase/firestore';
 
 const categoryLabels = {
